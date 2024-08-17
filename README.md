@@ -1,4 +1,4 @@
-# moonlight-restaurant
+# Moonlight Restaurant
 
 This is a Moonlight Restaurant Project. The Moonlight Restaurant is well-structured and includes various sections such as the homepage, about section, gallery, menu, contact form, and footer. The design uses modern layout techniques, and responsive media queries, and includes features like:
 
