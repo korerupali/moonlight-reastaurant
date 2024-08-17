@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moonlight Restaurant</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+</head>
+
+<body>
+
+    <header>
+        <a href="" class="logo"><i class='bx bx-restaurant'>Moon</i></a>
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <ul class="navbar">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+    </header>
+
+    <!-- home section start -->
+    <section class="home" id="home">
+        <div class="content">
+            <h5>Modern Reastaurant</h5>
+            <h1>Welcome to <br><span> Moonlight </span> <br> <span>Reastaurant</span> </h1>
+        </div>
+    </section>
+    <!-- home section end -->
+
+    <section id="about">
+        <div class="about-section">
+            <h1>About Moonlight Restaurant</h1>
+            <img src="assets/about-image.jpg" alt="Moonlight Restaurant">
+
+
+
+            <div id="about-content">
+
+                <div class="about-item">
+                    <h2>Our Story</h2>
+                    <p>At Moonlight Restaurant, we believe in the magic of food and the joy it brings to people. Our
+                        journey
+                        began with a passion for creating memorable dining experiences that delight the senses. Every
+                        dish we
+                        serve is crafted with the freshest ingredients, meticulous attention to detail, and a touch of
+                        love.</p>
+                </div>
+
+
+                <div class="about-item">
+                    <h2>Our Cuisine</h2>
+                    <p>Indulge in a diverse menu that features a blend of traditional favorites and innovative
+                        creations. Our
+                        talented chefs bring their expertise and creativity to every plate, ensuring that each bite is a
+                        symphony of flavors. Whether you're in the mood for a classic dish or an adventurous new taste,
+                        Moonlight Restaurant has something to satisfy every palate.</p>
+                </div>
+
+
+                <div class="about-item">
+                    <h2>The Ambiance</h2>
+                    <p>Step into Moonlight Restaurant and be transported to a world of elegance and charm. Our
+                        beautifully
+                        designed interior, adorned with soft lighting and tasteful décor, creates the perfect setting
+                        for any
+                        occasion. Whether you're enjoying a romantic dinner for two, celebrating with friends, or
+                        hosting a
+                        special event, our warm and attentive staff will make you feel right at home.</p>
+                </div>
+
+                <div class="about-item">
+                    <h2>Our Commitment</h2>
+                    <p>At Moonlight Restaurant, we are dedicated to providing an exceptional dining experience. We take
+                        pride in
+                        our commitment to quality, sustainability, and customer satisfaction. From our farm-to-table
+                        ingredients
+                        to our environmentally conscious practices, we strive to make a positive impact on our community
+                        and the
+                        world around us. Join us at Moonlight Restaurant and let us make your dining experience truly
+                        magical. We look forward to
+                        welcoming you under the moonlight.</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="gallery">
+        <div class="gallery-section">
+            <h1>Restaurant Gallery</h1>
+            <div class="gallery-container">
+                <div class="gallery-item">
+                    <img src="assets/gallery img4.jpg" alt="Delicious Dish 1">
+
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/gallery img5.jpg" alt="Elegant Interior">
+
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/gallery img6.jpg" alt="Exquisite Dessert">
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="menu">
+        <div class="menu-section">
+            <h1>Our Menu</h1>
+            <img src="assets/gallery img1.jpg" alt="Restaurant Menu">
+
+
+            <ul class="menu-list">
+                <li class="menu-item">
+                    <h2>Fast food</h2>
+                    <ul>
+                        <li>pizza</li>
+                        <li>Manchurian</li>
+                        <li>French Fries</li>
+                    </ul>
+                    <p>Fast food is quick to order and eat, making it suitable for people with busy lifestyles.</p>
+                </li>
+                <li class="menu-item">
+                    <h2>Coffee</h2>
+                    <ul>
+                        <li>Cold Coffee</li>
+                        <li>Hot Coffee</li>
+                        <li>Expresso</li>
+                    </ul>
+                    <p>Caffeine in coffee can enhance mental alertness, focus, and concentration.</p>
+                </li>
+                <li class="menu-item">
+
+                    <h2>Softdrinks</h2>
+                    <ul>
+                        <li>Classic Cola</li>
+                        <li>Lemon Breeze</li>
+                        <li>Vanilla Cream Soda</li>
+                    </ul>
+                    <p>Soft drinks come in a wide range of flavors, including cola, fruit-flavored, ginger ale, root
+                        beer, and more.</p>
+                </li>
+            </ul>
+
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="contact-section">
+            <h1>Contact Us</h1>
+            <div class="contact-info">
+                <p><strong>Email:</strong> <a href="mailto:korerupali24@gmail.com">korerupali24@gmail.com</a></p>
+            </div>
+            <div class="contact-form">
+
+                <h2>Send Message</h2>
+
+
+                <form onsubmit="return formValidation()">
+
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" placeholder="Enter your name:" required>
+
+
+                    <label for="email">Email:</label>
+                    <input type="text" id="email" placeholder="Enter your email:" required>
+
+                    <label for="email">Number:</label>
+                    <input type="number" id="number" placeholder="Enter your Phone number:" required>
+
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="6" required></textarea>
+
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer section -->
+    <footer>
+        <div class="footer-box">
+            <a href="" class="logo"><i class='bx bx-restaurant'>Moon</i></a>
+            <p>The customer support team was incredibly helpful and friendly. Order Now</p>
+            <div class="social">
+                <a href="#"><i class="bx bxl-facebook"></i></a>
+                <a href="#"><i class="bx bxl-twitter"></i></a>
+                <a href="#"><i class="bx bxl-instagram"></i></a>
+                <a href="#"><i class="bx bxl-youtube"></i></a>
+
+            </div>
+        </div>
+        <div class="footer-box">
+            <h3>Support</h3>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Help</a></li>
+            <li><a href="#">Return Policy</a></li>
+            <li><a href="#">Terms Of Use</a></li>
+
+        </div>
+        <div class="footer-box">
+            <h3>View Guides</h3>
+            <li><a href="#">Payments</a></li>
+            <li><a href="#">Our Blogs</a></li>
+            <li><a href="#">Our Partners</a></li>
+            <li><a href="#">Order Now</a></li>
+
+        </div>
+        <div class="footer-box contact">
+            <h3>Contact</h3>
+            <span> <i class="bx bxs-map"></i> Kalyan Mumbai, Maharashtra</span>
+            <span> <i class="bx bxs-phone"></i>+98989898989</span>
+            <span> <i class="bx bxs-envelope"></i>korerupali24@gmail.com</span>
+        </div>
+    </footer>
+    <!-- footer section end -->
+
+    <!-- Copyright -->
+    <div class="copyright">
+        <p> &copy; Moonlight Reastaurant. All Rights Reserved.</p>
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
