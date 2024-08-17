@@ -2,8 +2,7 @@
 
 This is a Moonlight Reastaurant Project. The Moonlight Restaurant is well-structured and includes various sections such as the homepage, about section, gallery, menu, contact form, and footer. The design uses modern layout techniques, responsive media queries, and includes features like:
 
-## Header & Navbar:
-Fixed at the top with a logo and navigation links, responsive to smaller screens with a hamburger menu.
+## Header & Navbar: Fixed at the top with a logo and navigation links, responsive to smaller screens with a hamburger menu.
 
 ## Home Section: 
 A hero image with a welcoming message in the center.
